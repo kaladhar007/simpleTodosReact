@@ -1,0 +1,20 @@
+/* Write your CSS here */
+.todoItem_container {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  justify-content: space-around;
+}
+button {
+  padding: 10px;
+  height: 40px;
+  width: 120px;
+  outline-width: 2px;
+  border: 5px;
+  outline-style: solid;
+  border-radius: 5px;
+  border-color: brown;
+  background: transparent;
+  outline: solid;
+  align-self: flex-end;
+}
